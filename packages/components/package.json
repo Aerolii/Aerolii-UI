@@ -1,0 +1,23 @@
+{
+  "name": "@Aerolii-UI/components",
+  "version": "1.0.0",
+  "description": "使用TypeScript 开发的 Vue3 组件库。",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Aerolii",
+  "repository": {
+    "url": ""
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.2.0",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "@vitejs/plugin-vue-jsx": "^4.0.0",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.0",
+    "vue": "^3.4.37"
+  }
+}

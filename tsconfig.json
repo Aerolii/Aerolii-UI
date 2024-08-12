@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "baseUrl": ".",
+    "strict": true, // 启用严格模式
+    "module": "ESNext", // 打包模块类型
+    "noImplicitAny": false, // 可以默认为 any
+    "removeComments": true, // 删除注释
+    "moduleResolution": "Node", // 解析方式按照 node 模块
+    "esModuleInterop": true, // 支持es6，commonjs模块
+    "jsx": "preserve", // jsx 不转译
+    "noLib": false, // 不对类库进行处理
+    "target": "ESNext", // 遵循 ESNext 版本
+    "sourceMap": true,
+    "lib": ["ES2022", "DOM"], // 编译时用到的库
+    "allowSyntheticDefaultImports": true, // 允许从没有导出的模块中导入
+    "experimentalDecorators": true, // 装饰器语法
+    "forceConsistentCasingInFileNames": true, // 强制区分大小写
+    "resolveJsonModule": true, // 解析JSON模块
+    "skipLibCheck": true // 跳过类库检查
+  },
+  "exclude": [
+    "node_modules",
+    "**/node_modules",
+    "*/**/node_modules",
+    "**/__tests__",
+    "dist/**",
+    "*/**/dist/**"
+  ]
+}

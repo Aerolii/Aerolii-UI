@@ -1,0 +1,32 @@
+{
+  "name": "Aerolii-UI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm -C examples dev"
+  },
+  "keywords": [
+    "Vue3",
+    "TypeScript"
+  ],
+  "author": "Aerolii",
+  "license": "ISC",
+  "repository": {
+    "url": "https://github.com/Aerolii/Aerolii-UI"
+  },
+  "publishConfig": {
+    "registry": "https://www.npmjs.com/"
+  },
+  "devDependencies": {
+    "@Aerolii-UI/components": "workspace:^",
+    "@Aerolii-UI/utils": "workspace:^",
+    "@types/node": "^22.2.0",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "@vitejs/plugin-vue-jsx": "^4.0.0",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.0",
+    "vue": "^3.4.37"
+  }
+}
